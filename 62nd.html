@@ -1,0 +1,186 @@
+<html>
+
+<head>
+    <title> BABY ANIMAL GALLERY! </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+        #home img {
+            height: 800px;
+            width: 1000px;
+            border-color: aquamarine;
+            border-width: thick;
+            text-align: center;
+        }
+
+        .row {
+            text-align: center;
+        }
+
+        .row img {
+            height: 350px;
+            width: 350px;
+        }
+
+        .menu1 {
+            position: fixed;
+            background-color: plum;
+            width: 100%;
+            margin-top: 0px;
+            top: 0px;
+            z-index: 10;
+
+        }
+
+        .links {
+            display: inline;
+            padding-left: 33px;
+            padding-right: 25px;
+            font-family: fantasy;
+            font-size: 20px
+        }
+
+        .links:hover {
+            font-size: 25px;
+            text-decoration: underline;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        #myCarousel {
+            background-color: red;
+        }
+
+        #myCarousel img {
+            height: 300px;
+            margin-top: 35px;
+        }
+
+        .carousel-inner p {
+            margin-bottom: 15px;
+            margin-top: 15px;
+            color: white;
+            font-size: 20px;
+        }
+
+        #myCarouse2 {
+            background-color: #b5d0d4;
+        }
+
+        #myCarouse2 img {
+            height: 300px;
+            margin-top: 35px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1> BABY ANIMAL GALLERY! </h1>
+    <center>
+        <ul class="menu1">
+            <li class="links"> <a href=#home> Home! </a> </li>
+            <li class="links"> <a href=#grids> Grid view! </a> </li>
+            <li class="links"> <a href=#slides> Slide view! </a> </li>
+        </ul>
+    </center>
+    <!Home view>
+        <div id="home">
+            <img src="home%20screen%20thing.png">
+        </div>
+        <!Grid view>
+            <div id="grids">
+                <div class="row">
+                    <img src="kitty.jpg">
+                    <img src="puppy.jpeg">
+                    <img src="rabbit.jfif">
+                    <img src="hedgehog.jpg">
+                </div>
+                <div class="row">
+                    <img src="fox.jpg">
+                    <img src="panda.jpg">
+                    <img src="seal.jpg">
+                    <img src="snow%20leopard.jpg">
+                </div>
+            </div>
+            <!Slide view>
+                <div id="myCarousel" class="slides" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="item-active">
+                            <center>
+                                <img src="kitty.jpg" class="image-responsive">
+                                <div class="carousel-content">
+                                    <p> Baby cat! </p>
+                                </div>
+                            </center>
+                        </div>
+                        <div class="item">
+                            <center>
+                                <img src="puppy.jpeg" class="image-responsive">
+                                <div class="carousel-content">
+                                    <p> Baby dog! </p>
+                                </div>
+                            </center>
+                        </div>
+                        <div class="item">
+                            <center>
+                                <img src="rabbit.jfif" class="image-responsive">
+                                <div class="carousel-content">
+                                    <p> Baby rabbit! </p>
+                                </div>
+                            </center>
+                        </div>
+                        <div class="item">
+                            <center>
+                                <img src="hedgehog.jpg" class="image-responsive">
+                                <div class="carousel-content">
+                                    <p> Baby dog! </p>
+                                </div>
+                            </center>
+                        </div>
+                        <div class="item">
+                            <center>
+                                <img src="fox.jpg" class="image-responsive">
+                                <div class="carousel-content">
+                                    <p> Baby fox! </p>
+                                </div>
+                            </center>
+                        </div>
+                        <div class="item">
+                            <center>
+                                <img src="panda.jpg" class="image-responsive">
+                                <div class="carousel-content">
+                                    <p> Baby panda! </p>
+                                </div>
+                            </center>
+                        </div>
+                        <div class="item">
+                            <center>
+                                <img src="seal.jpg" class="image-responsive">
+                                <div class="carousel-content">
+                                    <p> Baby seal! </p>
+                                </div>
+                            </center>
+                        </div>
+                        <div class="item">
+                            <center>
+                                <img src="snow%20leopard.jpg" class="image-responsive">
+                                <div class="carousel-content">
+                                    <p> Baby snow leopard! </p>
+                                </div>
+                            </center>
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+</body>
+
+</html>
